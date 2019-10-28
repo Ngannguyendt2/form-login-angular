@@ -13,6 +13,7 @@ import { FilterComponent } from './products/filter/filter.component';
 import { StatusComponent } from './products/status/status.component';
 import { TodoComponent } from './products/todo/todo.component';
 import { RegisterComponent } from './products/register/register.component';
+import { LoginComponent } from './products/login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RegisterComponent } from './products/register/register.component';
     FilterComponent,
     StatusComponent,
     TodoComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
